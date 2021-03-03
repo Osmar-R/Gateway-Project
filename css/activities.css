@@ -1,0 +1,197 @@
+/*/* Navigation bar */
+nav {
+    width: fit-content;
+    margin: 0;
+    padding: 10px 15px;
+  }
+  nav li {
+    display: inline;
+    margin: 0 20px;
+  }
+  nav ul {
+    padding: 0;
+    list-style: none;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+  
+  .topnav {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .topnav nav ul {
+    margin-top: 22px;
+  }
+  
+  /* logo thats on the left of NAV */
+  
+  .logo {
+    width: fit-content;
+    padding: 0 10px;
+  }
+  
+  .logo h2 {
+    margin-top: 30px;
+  }
+
+  
+
+/* Clearing Margin  */
+
+body {
+    margin: 0 !important;         /* Fixes the Footer on top */
+    background-color: #D3D3D3;
+        
+}
+
+/* Card Activiites Seciton */
+
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    gap: 50px;
+    font-family: sans-serif;
+    padding: 60px 0 60px;  
+    
+}
+
+.cards * {
+    box-sizing: border-box;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card-content {
+    line-height: 1.5;
+    font-size: 1em;
+    padding: 15px;
+    background:#E8E8E8;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card-content > p {
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.card-content > p {
+    margin-bottom: 0;
+}
+
+.card-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: 	#333;
+    font-size: 0.8em;
+    border-bottom: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card-info p {
+    font-size: 1.1em;
+    margin-right: 8px;
+    color: white;
+}
+
+.card-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://cdn.statically.io/img/www.99images.com/photos/wallpapers/3d-abstract/japanese-aestheticandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-iukct.jpg?v=1577514603);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+
+/*----- Footer -----*/
+
+footer {
+    background-color: #000;
+    display:flex;
+    justify-content: space-between;
+    padding:20px 30px;
+    color: #fff;
+    width: 100vw;                    /* VW allows the CSS to see the width of the entire browser */
+    overflow: hidden;               /* will have issues with document collapsing without overflow hidden */
+    box-sizing: border-box; 
+    background-color: #18181a;
+    margin:0;
+  }
+  
+  footer p {
+    height: fit-content;
+  }
+  
+  .social{
+    display: flex;
+  }
+  .fa {
+    padding: 10px;
+    padding-top:13px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 7px;
+    font-size: 30px;
+    transition: 300ms;
+  }
+  
+  .fa:hover {
+    color: #0786e0;
+    background: #0a0a0a;
+    text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }

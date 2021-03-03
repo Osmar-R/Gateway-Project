@@ -1,0 +1,163 @@
+/*/* Navigation bar */
+nav{
+    width: fit-content;
+    margin: 0;
+    padding: 10px 15px;
+}
+nav li{
+display:inline;
+margin:0 20px;
+}
+nav ul {
+padding: 0;
+list-style: none;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+font-size: 20px;
+padding-right: 20px;
+}
+
+.topnav {
+background-color: #333;
+color: #fff;
+width: 100%;
+display:flex;
+justify-content: space-between;
+}
+
+.topnav nav ul{
+	margin-top: 22px;
+}
+
+/* logo thats on the left of NAV */
+
+.logo{
+width:fit-content;
+padding: 0 10px;
+}
+
+.logo h2{
+margin-top: 30px;
+}
+
+/* Clearing Margin  */
+
+body{
+	margin:0 !important;       /* FIxes the top navbar */
+    background-color: #222;
+
+}
+
+.contact-form {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://travelwithbender.com/files/5614/9032/2565/japan_photos_IMG_8795-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 80%;
+  margin:  auto;
+  height: 800px;
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.contact-form-inputs{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 20px 60px ;
+}
+
+.contact-form-inputs input, textarea{
+    margin:5px;
+}
+
+textarea {
+resize:none;
+height:10vh;
+}
+
+.btn-for-submit {
+    color: #000;
+    background-color: #fff;
+    padding: 12px 0px;
+    margin-top: 60px;
+    display: block;
+    width: 120px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 600ms;
+    text-align: center;
+  }
+  
+  .btn-for-submiit:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  /*----- Footer -----*/
+
+footer {
+  background-color: #000;
+  display:flex;
+  justify-content: space-between;
+  padding:20px 30px;
+  color: #fff;
+  width: 100vw;               /* VW allows the CSS to see the width of the entire browser */
+  overflow: hidden;             /* will have issues with document collapsing without overflow hidden */
+  box-sizing: border-box; 
+  background-color: #18181a;
+  margin:0;
+}
+
+footer p {
+  height: fit-content;
+}
+
+.social{
+  display: flex;
+}
+.fa {
+  padding: 10px;
+  padding-top:13px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  font-size: 30px;
+  transition: 300ms;
+}
+
+.fa:hover {
+  color: #0786e0;
+  background: #0a0a0a;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
